@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+
+hr {
+  border:none;
+  height: 20px;
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  margin-bottom:60px;
+  border-bottom: 2px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  /*margin: -50px auto 10px; */
+}
+.cont-title{
+}
+.elliot-form{
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+}
+.subby1, .subby2{
+  display:none;
+  margin-top:40px;
+}
+.finalval1{
+  text-align:left;
+  margin-left:20%;
+}
+.finalval2{
+  margin-left:50px;
+}
+textarea {
+  resize: vertical; /* user can resize vertically, but width is fixed */
+}
+#my-content{
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 1); 
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-radius: 25px;
+  position:relative;
+  text-align:center;
+  top:-20px;
+  border-left:3px solid black;
+  border-right:3px solid black;
+  border-bottom:3px solid black;
+}
+.my-welcome{
+  font-size:2em;
+}
+#my-title-wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  margin-top:140px;
+  font-family: 'Patua One', cursive;
+}
+.my-footer{
+  color:white;
+  background-color:rgba(0,0,0,0.7);
+}
+.my-footer-text{
+  margin-top:15px;
+  text-align:left;
+  font-size:1em;
+}
+
+.text-2{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  padding-top:0;
+  padding-bottom:0;
+  margin-bottom:25px;
+}
+.my-title{
+  border-top-left-radius: 20em;
+  border-top-right-radius: 20em;
+  border-top:3px solid black;
+  border-left:3px solid black;
+  border-right:3px solid black;
+  text-align:center;
+  margin-top:120px;
+  font-family: 'Patua One', cursive;
+  background-color:#a6a6a6;
+  padding-top:5px;
+  padding-bottom:25px;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+#myCarouselStyle{
+
+}
+.my-panel{
+  text-align:center;
+  border-left:3px solid black;
+  border-right:3px solid black;
+  font-family: 'Patua One', cursive;
+  background-color:#cccccc;
+  padding-top:5px;
+  padding-bottom:25px;
+  font-size:0.75em;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+/* Hide slider image until page is fully loaded*/
+body:not(.loaded) #slider img {
+  display:none;
+}
+body{
+  font-family: 'Roboto Slab', serif;
+  overflow:auto;
+}
+.my-navbar{
+  border:0;
+  border-radius:0;
+  background:rgba(0,0,0,0.5);
+  height:70px;
+}
+.navbar-brand{
+  margin-top:10px;
+  padding-top:1px;
+  padding-bottom:1px;
+}
+
+#brand-logo{
+  margin-top:5px;
+}
+#brand-name{
+  color:white;
+  margin-top:5px;
+  margin-bottom:0;
+  font-weight:bold;
+}
+.mytab-option{
+  height:70px;
+  margin-top:0;
+
+}
+.mytab-anchor{
+  color:#FFFFFF;
+  margin-right:30px;
+  height:40px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.container{
+  width:100%
+}
+ul.nav.nav-pills{
+  width:100%;
+  height:70px !important;
+}
+#my-quote-wrapper{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:80px;
+  font-weight:bold;
+  background-color:rgba(75, 100, 150, 0.2);
+  padding-left:0;
+  padding-right:0;
+  width:69%;
+  color:black !important;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+
+}
+footer{
+  color:black !important;
+}
+.my-btn, .my-btn:hover, .my-btn:visited .my-btn:active{
+    /*margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:12%;
+    margin-top:140px;
+    display:block;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;*/
+  }
+  #map-link, #map-link:hover, #map-link:visited{
+    text-decoration-style: none;
+    text-decoration:none;
+    color:white;
+  }
+
+  /*Carousel Related*/
+
+  #myCarousel{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10em;
+    margin-bottom:10em;
+  }
+  #myCarousel img{
+    height:22em;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  /*End of Carousel*/
