@@ -3,7 +3,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 
-
+.galCont{
+margin-top:50px;
+margin-bottom:10px;
+}
+.row{
+  width:90%;
+  margin-bottom:5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.galCol{
+}
+.galIMG{
+  height:240px !important;
+}
 hr {
   border:none;
   height: 20px;
@@ -60,7 +74,7 @@ textarea {
   margin-left:auto;
   margin-right:auto;
   text-align:center;
-  margin-top:140px;
+  margin-top:100px;
   font-family: 'Patua One', cursive;
 }
 .my-footer{
@@ -168,16 +182,28 @@ ul.nav.nav-pills{
   text-align:center;
   margin-left:auto;
   margin-right:auto;
-  margin-top:80px;
+  margin-top:50px;
   font-weight:bold;
   background-color:rgba(75, 100, 150, 0.2);
   padding-left:0;
   padding-right:0;
   width:69%;
   color:black !important;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-
+}
+.galHead{
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  font-weight:bold;
+  background-color:rgba(75, 100, 150, 0.2);
+  padding-left:0;
+  padding-right:0;
+  width:69%;
+  color:black !important;
+  font-size:130%;
 }
 footer{
   color:black !important;
