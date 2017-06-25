@@ -136,6 +136,10 @@ body:not(.loaded) #slider img {
 body{
   font-family: 'Roboto Slab', serif;
   overflow:auto;
+  background-image:url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 .my-navbar{
   border:0;
@@ -223,21 +227,3 @@ footer{
     text-decoration:none;
     color:white;
   }
-
-  /*Carousel Related*/
-
-  #myCarousel{
-    width:70%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:10em;
-    margin-bottom:10em;
-  }
-  #myCarousel img{
-    height:22em;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-  /*End of Carousel*/
